@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.lvbo</groupId>
+	<artifactId>learn-common-tools</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>learn-common-tools</name>
+	<description>学习一些Java中常用的公共组件</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+        <joda-time.version>2.10.9</joda-time.version>
+		<junit.version>4.13.1</junit.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${joda-time.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
