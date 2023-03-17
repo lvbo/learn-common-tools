@@ -1,0 +1,26 @@
+syntax = "proto3";
+package tutorial;
+option java_package = "io.github.lvbo.lct.protobuf";
+
+message Student{
+    string name = 1;
+    int32 age = 2;
+    string email = 3;
+    repeated string course = 4;
+}
+
+message Weather{
+    int32 query = 1;
+
+    enum Season{
+        option allow_alias = true;
+
+        SPRING = 0;
+        SUMMER = 1;
+        FALL = 2;
+        AUTUMN = 2;
+        WINTER = 3;
+    }
+
+    Season season = 2;
+}
