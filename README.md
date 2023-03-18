@@ -12,3 +12,6 @@ package: main/java/io.github.lvbo.lct.protobuf
 ```bash
 protoc -I=./ --java_out=~/github_code/my_code/java/learn-common-tools/src/main/java ./addressbook.proto 
 ```
+## protostuff
+package: test/java/io.github.lvbo.lct.protostuff
+package: main/java/io.github.lvbo.lct.protostuff

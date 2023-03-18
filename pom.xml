@@ -19,6 +19,8 @@
 		<junit.version>4.13.1</junit.version>
 		<protobuf.java.version>3.21.12</protobuf.java.version>
 		<protobuf.java.util.version>3.21.12</protobuf.java.util.version>
+		<protostuff-core.version>1.7.4</protostuff-core.version>
+		<protostuff-runtime.version>1.7.4</protostuff-runtime.version>
 	</properties>
 
 	<dependencies>
@@ -44,6 +46,17 @@
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java-util</artifactId>
 			<version>${protobuf.java.util.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.protostuff</groupId>
+			<artifactId>protostuff-core</artifactId>
+			<version>${protostuff-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.protostuff</groupId>
+			<artifactId>protostuff-runtime</artifactId>
+			<version>${protostuff-runtime.version}</version>
 		</dependency>
 
 		<dependency>
