@@ -13,6 +13,7 @@
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 		<maven.complier.source>${java.version}</maven.complier.source>
 		<maven.complier.target>${java.version}</maven.complier.target>
+		<maven.complier.compilerVersion>${java.version}</maven.complier.compilerVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<joda-time.version>2.10.9</joda-time.version>
 		<joda-money.verion>1.0.1</joda-money.verion>
@@ -21,6 +22,8 @@
 		<protobuf.java.util.version>3.21.12</protobuf.java.util.version>
 		<protostuff-core.version>1.7.4</protostuff-core.version>
 		<protostuff-runtime.version>1.7.4</protostuff-runtime.version>
+		<simple-el.version>0.1.7</simple-el.version>
+		<lombok.version>1.18.12</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -57,6 +60,25 @@
 			<groupId>io.protostuff</groupId>
 			<artifactId>protostuff-runtime</artifactId>
 			<version>${protostuff-runtime.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>SimpleEL</artifactId>
+			<version>${simple-el.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sun</groupId>
+					<artifactId>tools</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>

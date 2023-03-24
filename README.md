@@ -15,3 +15,7 @@ protoc -I=./ --java_out=~/github_code/my_code/java/learn-common-tools/src/main/j
 ## protostuff
 package: test/java/io.github.lvbo.lct.protostuff
 package: main/java/io.github.lvbo.lct.protostuff
+
+## SimpleEL
+package: test/java/io.github.lvbo.lct.simpleel
+package: main/java/io.github.lvbo.lct.simpleel
