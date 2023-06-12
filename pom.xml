@@ -24,6 +24,7 @@
 		<protostuff-runtime.version>1.7.4</protostuff-runtime.version>
 		<simple-el.version>0.1.7</simple-el.version>
 		<lombok.version>1.18.12</lombok.version>
+		<aviator.version>2.3.0</aviator.version>
 	</properties>
 
 	<dependencies>
@@ -72,6 +73,12 @@
 					<artifactId>tools</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.aviator</groupId>
+			<artifactId>aviator</artifactId>
+			<version>${aviator.version}</version>
 		</dependency>
 
 		<dependency>
