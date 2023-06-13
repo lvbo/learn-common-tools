@@ -25,6 +25,7 @@
 		<simple-el.version>0.1.7</simple-el.version>
 		<lombok.version>1.18.12</lombok.version>
 		<aviator.version>2.3.0</aviator.version>
+		<transmittable-thread-local.version>2.11.1</transmittable-thread-local.version>
 	</properties>
 
 	<dependencies>
@@ -79,6 +80,12 @@
 			<groupId>com.googlecode.aviator</groupId>
 			<artifactId>aviator</artifactId>
 			<version>${aviator.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>transmittable-thread-local</artifactId>
+			<version>${transmittable-thread-local.version}</version>
 		</dependency>
 
 		<dependency>

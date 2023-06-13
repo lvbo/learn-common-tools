@@ -21,3 +21,7 @@ protoc -I=./ --java_out=~/github_code/my_code/java/learn-common-tools/src/main/j
 ## SimpleEL
 - package: test/java/io.github.lvbo.lct.simpleel
 - package: main/java/io.github.lvbo.lct.simpleel
+
+## transmittable-thread-local
+- package: test/java/io.github.lvbo.lct.transmittablethreadlocal
+- package: main/java/io.github.lvbo.lct.transmittablethreadlocal
