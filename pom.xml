@@ -26,6 +26,7 @@
 		<lombok.version>1.18.12</lombok.version>
 		<aviator.version>2.3.0</aviator.version>
 		<transmittable-thread-local.version>2.11.1</transmittable-thread-local.version>
+		<commons-collections4.version>4.4</commons-collections4.version>
 	</properties>
 
 	<dependencies>
@@ -86,6 +87,12 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>transmittable-thread-local</artifactId>
 			<version>${transmittable-thread-local.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>${commons-collections4.version}</version>
 		</dependency>
 
 		<dependency>
