@@ -25,3 +25,7 @@ protoc -I=./ --java_out=~/github_code/my_code/java/learn-common-tools/src/main/j
 ## transmittable-thread-local
 - package: test/java/io.github.lvbo.lct.transmittablethreadlocal
 - package: main/java/io.github.lvbo.lct.transmittablethreadlocal
+
+## commons-lang3
+- package: test/java/io.github.lvbo.lct.commons.lang3
+- package: main/java/io.github.lvbo.lct.commons.lang3

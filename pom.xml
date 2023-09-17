@@ -9,11 +9,9 @@
 	<description>学习一些Java中常用的公共组件</description>
 
 	<properties>
-		<java.version>11</java.version>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-		<maven.complier.source>${java.version}</maven.complier.source>
-		<maven.complier.target>${java.version}</maven.complier.target>
-		<maven.complier.compilerVersion>${java.version}</maven.complier.compilerVersion>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<joda-time.version>2.10.9</joda-time.version>
 		<joda-money.verion>1.0.1</joda-money.verion>
@@ -27,6 +25,7 @@
 		<aviator.version>2.3.0</aviator.version>
 		<transmittable-thread-local.version>2.11.1</transmittable-thread-local.version>
 		<commons-collections4.version>4.4</commons-collections4.version>
+		<commons-lang3.version>3.11</commons-lang3.version>
 	</properties>
 
 	<dependencies>
@@ -107,6 +106,12 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
 		</dependency>
 	</dependencies>
 </project>
