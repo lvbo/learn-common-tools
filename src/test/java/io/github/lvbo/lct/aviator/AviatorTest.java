@@ -1,9 +1,7 @@
-package io.github.lvbo.lct.avivator;
+package io.github.lvbo.lct.aviator;
 
 import com.googlecode.aviator.AviatorEvaluator;
 import com.googlecode.aviator.Expression;
-import io.github.lvbo.lct.aviator.AddFunction;
-import io.github.lvbo.lct.aviator.Foo;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
